@@ -1,7 +1,33 @@
 cmd :
 =====
+
+config
+------
 git config --global user.name "john-madmil"
 
-git log
+git remote add git://github.com/john-madmil/testPush.git
+
+
+update
+------
+git add .
 git commit -a -m "1.0x : xxx"
+git commit --amend -m "Votre nouveau message"
+
+
+local <-> remote
+----------------
 git push -u origin master
+git pull origin master
+git reset --hard
+
+
+request/ log
+------------
+git log
+git status
+
+
+
+
+
