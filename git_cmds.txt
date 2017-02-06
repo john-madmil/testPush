@@ -1,0 +1,7 @@
+cmd :
+=====
+git config --global user.name "john-madmil"
+
+git log
+git commit -a -m "1.0x : xxx"
+git push -u origin master
