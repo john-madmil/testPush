@@ -21,6 +21,10 @@ git push -u origin master
 git pull origin master
 git reset --hard
 
+branche
+-------
+git branch
+git branch readme_2.x
 
 request/ log
 ------------
