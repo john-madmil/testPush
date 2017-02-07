@@ -4,7 +4,6 @@ cmd :
 config
 ------
 git config --global user.name "john-madmil"
-
 git remote add git://github.com/john-madmil/testPush.git
 
 
@@ -22,6 +21,7 @@ git stash list
 local <-> remote
 ----------------
 git push -u origin master
+git push -u origin version.txt
 git pull origin master
 git reset --hard
 
