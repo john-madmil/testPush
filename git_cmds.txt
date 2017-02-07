@@ -14,6 +14,10 @@ git add .
 git commit -a -m "1.0x : xxx"
 git commit --amend -m "Votre nouveau message"
 
+git stash
+git stash pop / git stash apply
+git stash list
+
 
 local <-> remote
 ----------------
@@ -25,6 +29,7 @@ branche
 -------
 git branch
 git branch readme_2.x
+git checkout ma-branche
 git checkout -b ma-branche
 git merge brancheB
 
@@ -33,7 +38,14 @@ request/ log
 git log
 git status
 
+tool
+----
+git mergetool vimdiff 
 
+qui a fait 
+----------
+git blame nomdufichier.extension
+git show bfaf14b7
 
 
 
