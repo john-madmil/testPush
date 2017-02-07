@@ -29,9 +29,10 @@ branche
 -------
 git branch
 git branch readme_2.x
-git checkout ma-branche
+git branch -d <branch>
+git checkout master
 git checkout -b ma-branche
-git merge brancheB
+git merge version.txt
 
 request/ log
 ------------
